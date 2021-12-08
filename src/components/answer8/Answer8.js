@@ -65,8 +65,6 @@ const Answer8 = ({
             }
         }, {})
 
-        console.log(digits.map(text => text.split('').sort().join('')).reduce((acc, value) => acc + decoded[value], ''))
-
         return digits.map(text => text.split('').sort().join('')).reduce((acc, value) => acc + decoded[value], '')
     }
 
